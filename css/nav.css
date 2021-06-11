@@ -1,8 +1,10 @@
 .nav{
-    /* padding-top: 30px; */
-    /* margin-top: 30px; */
-    width:400px;
+    
 }
-.vNav{
+#vNav{
+    color:black;
+    background: lightgray;
+    margin-top:30px;
+    width:145px;
     /* margin-top: 50px; */
 }

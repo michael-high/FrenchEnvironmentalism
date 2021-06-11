@@ -1,0 +1,38 @@
+.footer{
+    background-color: var(--mutegreen);
+    font-family: 'Delius', cursive;
+    color: var(--lightgreen);
+    
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+/*social media link icons bar*/
+.brandIcons{
+    display:flex;
+}
+#iconsLeft{
+    flex:5;
+}
+#twitterIcon{
+    flex:1;
+}
+#facebookIcon{
+    flex:1;
+}
+#redditIcon{
+    flex:1;
+}
+#instaIcon{
+    flex:1;
+}
+#linkedInIcon{
+    flex:1;
+}
+#githubIcon{
+    flex:1;
+}
+#iconsRight{
+    flex:5;
+}

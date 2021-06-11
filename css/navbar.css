@@ -1,5 +1,8 @@
 .navbar{
     background-color: var(--mutegreen);
-    color: darkgray;
+    color: black;
 
+}
+.navbar-toggler{
+    color: black;
 }
