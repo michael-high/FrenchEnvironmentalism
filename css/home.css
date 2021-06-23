@@ -4,7 +4,7 @@
     background: darkgray;
 }
 #content{
-    margin-left:100px;
+    margin-left:3em;
     margin-top: 50px;
     flex:5;
 }
@@ -20,6 +20,26 @@
 }
 #Mission{
     /* border-radius: 10%; */
-    background: var(--muteblue);
+    background: var(--mutegreen);
     /* border: 2px solid black; */
+}
+#contentWrap{
+    display:flex;
+    flex-direction: column;
+}
+
+#car{
+    height:15em;
+    width:auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+article {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
 }
