@@ -19,3 +19,11 @@ article{
     -moz-column-width: 150px;
     column-width: 150px;
 }
+#dirbox{
+    height: 400px;
+    width: 266px;
+}
+#dircaption{
+    font-size: Large;
+    background-color: darkred;
+}
