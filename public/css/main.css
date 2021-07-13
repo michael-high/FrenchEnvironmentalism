@@ -5,3 +5,13 @@
 @import "footer.css";
 @import "directory.css";
 @import "endpages.css";
+
+entry{
+    margin-bottom:20px;
+    padding:1em;
+    padding-left: 3em;
+    border-radius: 2%;
+    background-color: blanchedalmond;
+    box-shadow: 1em 1em 3em 0.5em rgb(131, 103, 67) inset;
+    line-height: 8px;
+}

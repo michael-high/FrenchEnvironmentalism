@@ -29,8 +29,9 @@
 }
 
 #car{
-    height:15em;
-    width:auto;
+    height:100px;
+    width:115%;
+    border-style: hidden;
 }
 
 .clearfix {
@@ -42,4 +43,24 @@ article {
     margin-bottom: 20px;
     background-color: #ddd;
     border: 1px solid #ccc;
+}
+
+.homerow{
+    display: flex;
+    flex-direction: row;
+}
+#hr1{
+    flex:1;
+}
+#hr2{
+    flex:1;
+}
+#hr3{
+    flex:1;
+}
+#hr4{
+    flex:1;
+}
+#hr5{
+    flex:1;
 }
