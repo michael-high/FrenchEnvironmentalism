@@ -1,7 +1,13 @@
 :root{
-    --lightgreen: #5fa052;
+    --oldlightgreen: #5fa052;
     --mutegreen: #375d30;
     --muteblue: #5286a0;
     --mutebrown: #a06c52;
     --mutered: #a0525f;
+    --darkgray: #0d0a0b;
+    --lightgray: #454955;
+    --offwhite: #f3eff5;
+    --lightgreen: #7ec11f;
+    --medgreen: #5f9f20;
+    --darkgreen: #3f7d20;
 }

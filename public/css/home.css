@@ -1,7 +1,7 @@
 #mainWrap{
     width: 100%;
     margin-top: 30px;
-    background: darkgray;
+    background:var(--lightgray);
 }
 #content{
     margin-left:3em;
@@ -12,17 +12,11 @@
     height:300px;
     width:100%;
 }
-#About{
-    
-    /* border-radius: 10%; */
-    background: var(--muteblue);
-    /* border: 2px solid black; */
-}
-#Mission{
-    /* border-radius: 10%; */
+/* #Mission{
+    /* border-radius: 10%;
     background: var(--mutegreen);
-    /* border: 2px solid black; */
-}
+    /* border: 2px solid black;
+} */
 #contentWrap{
     display:flex;
     flex-direction: column;
@@ -49,18 +43,24 @@ article {
     display: flex;
     flex-direction: row;
 }
-#hr1{
-    flex:1;
+#About{
+    justify-content: center;
+    outline-offset: 20px;
+    max-width: 230px;
+    outline: auto;
+    margin: 60px 60px 60px 0px;
 }
 #hr2{
-    flex:1;
+    justify-content: center;
+    outline-offset: 20px;
+    max-width: 230px;
+    outline: auto;
+    margin: 60px 60px 60px 0px;
 }
 #hr3{
-    flex:1;
-}
-#hr4{
-    flex:1;
-}
-#hr5{
-    flex:1;
+    justify-content: center;
+    outline-offset: 20px;
+    max-width: 230px;
+    outline: auto;
+    margin: 60px 60px 60px 0px;
 }

@@ -11,13 +11,3 @@
 /* body{
     background-image: "../assets/baudelaire1.jpg";
 } */
-
-#searchpopup{
-    position: relative;
-    width: 245px;
-    height: 288px;
-    
-    filter: drop-shadow(-4px 4px 5px rgba(0, 0, 0, 0.25));
-    
-
-}
