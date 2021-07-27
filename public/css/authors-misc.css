@@ -1,0 +1,16 @@
+.col-h3{
+    margin-top: 30px;
+}
+.col-h1{
+    margin-bottom: 30px;
+}
+#col-page{
+    margin-right: 5vw;
+    margin-bottom:20px;
+    padding: 5vh 2vw 5vh 2vw;
+    border-radius: 2%;
+    background-color: blanchedalmond;
+    box-shadow: 1em 1em 3em 0.5em rgb(131, 103, 67) inset;
+    font-family: 'Fondamento', cursive;
+    font-size: large;
+}
