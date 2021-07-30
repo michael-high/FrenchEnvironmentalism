@@ -14,3 +14,19 @@
     font-family: 'Fondamento', cursive;
     font-size: large;
 }
+#a-indent{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#aut-link{
+    text-decoration: none;
+    color: black;
+}
+#aut-link:hover{
+    color: blue;
+}
+.aut-main-text{
+    line-height: 2em;
+    font-size: large;
+}

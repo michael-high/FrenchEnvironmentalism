@@ -1,0 +1,27 @@
+#sub-page{
+    margin-right: 5vw;
+    margin-bottom:20px;
+    padding: 3vh 2vw 1vh 2vw;
+    border-radius: 2%;
+    background-color: blanchedalmond;
+    box-shadow: 1em 1em 3em 0.5em rgb(131, 103, 67) inset;
+    font-family: 'Fondamento', cursive;
+    font-size: large;
+}
+#sub-link{
+    color:black;
+    text-decoration: none;
+}
+#sub-link:hover{
+    color: var(--medgreen);
+}
+#sub-aut-contentWrap{
+    margin-left:2vw;
+    margin-top: 50px;
+    flex:5;
+}
+#sub-aut-img{
+    height: 300px;
+    width: auto;
+    margin-left: 20%;
+}
