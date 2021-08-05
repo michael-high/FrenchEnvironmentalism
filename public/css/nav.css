@@ -15,10 +15,13 @@
     /* justify-content: space-between;*/
     /* align-items: left; */
     /* padding: 1rem 1.5rem; */
-    background: var(--darkgreen);
+    background: var(--mutegreen);
     margin-top:30px;
-    margin-left:10px;
-    width:145px;
+    margin-left:30px;
+    padding: 0px 30px 0px 0px;
+    /* width:145px; */
+    border-radius: 30px;
+    box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
 }
 .nav-menu {
     display: flex;
@@ -40,11 +43,11 @@
 .vnav-link{
     font-size: large;
     font-weight: 400;
-    color: #F0EDF2;
+    color: #d3d3d3;
 }
 
 .vnav-link:hover{
-    color: #101010;
+    color: #ffffff;
 }
 /* 
 .hamburger{

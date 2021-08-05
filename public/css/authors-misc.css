@@ -30,3 +30,12 @@
     line-height: 2em;
     font-size: large;
 }
+#a-contentWrap{
+    margin-left:5em;
+    margin-top: 50px;
+    flex:5;
+    align-items: center;
+}
+#a-contentWrap a{
+    color: var(--medgreen);
+}
