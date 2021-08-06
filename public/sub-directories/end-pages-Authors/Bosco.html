@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -45,7 +46,7 @@
         </div>
     </nav>
     
-    <div class="container-fluid" id="mainWrap">
+    <div class="container-fluid" id="mainWrap" style="background-image: '../../assets/baudelaire1.jpg';">
         <div class="row">
             <!--Vertical Nav-->
             <div id="navbar">
@@ -60,10 +61,10 @@
                                 <a class="vnav-mini-link" href="./Bonnefoy.html">Bonnefoy</a>
                             </li>
                             <li class="vnav-mini-item">
-                                <a class="vnav-mini-link" href="./Bosco.html">Bosco</a>
+                                <a class="vnav-mini-link-active" href="#">Bosco</a>
                             </li>
                             <li class="vnav-mini-item">
-                                <a class="vnav-mini-link-active" href="#">Chateaubriand</a>
+                                <a class="vnav-mini-link" href="./Chateaubriand.html">Chateaubriand</a>
                             </li>
                             <li class="vnav-mini-item">
                                 <a class="vnav-mini-link" href="./Colette.html">Colette</a>
@@ -120,26 +121,52 @@
             </div>
            
             <!--Content Area-->
-            <div class="column" id="content">
-                <div class="container" id="contentWrap">
-                    <h1>Chateaubriand</h1>
-                     
-                </div>
+            <div class="column" id="a-contentWrap">
+                <div id="col-page">
+                    <h1 class=col-h1><b>Charles Baudelaire (1821–1867)</b></h1>
+                    <div>
+                        <figure>
+                            <img src="../../assets/baudelaire1.jpg" alt="Image of Baudelaire" width="366" height="436">
+                            <figcaption style="font-size: small;">Manet, Portrait of Baudelaire after Nadar, etching on paper,<a href="https://www.metmuseum.org/art/collection/search/376108"> The Metropolitan Museum of Art, New York</a></figcaption>
+                        </figure>
+                    </div>
+
+                    <h3 class="col-h3"><b>Baudelaire and the "sublime deformation” of Nature</b></h3>
+                    <div class="aut-main-text">
+                        
+                    </div>
+
+                    <h3 class="col-h3"><b>Texts</b></h3>
+                    <p><a href="#">“Le Coucher du soleil romantique,”</a> <i>Les Épaves</i> (1866)</p>
+                    <p><a href="../end-pages-texts/Le-Crepuscule.html">“Le Crépuscule du matin,"</a> <i>Les Fleurs du mal</i> (1857)</p>
+                    <p><a href="../end-pages-texts/Paysage.html">“Paysage,”</a> <i>Les Fleurs du mal</i> (1861)</p>
+                    <p><a href="#">“Paysage,” </a> Salon de 1859 (from <i>Curiosité esthétiques</i>, 1868)</p>
+                    <p><a href="#">“Les Nuages,”</a> <i>Le Spleen de Paris</i></p>
+                    <br>
+                        
+                    <h3 class="col-h3"><b>Further Reading</b></h3>
+                    <p>Collot, Michel. Paysage et poésie: du romantisme à nos jours, José Corti, 2005.</p>
+                    <p>Finch-Race, Daniel A. “Ecopoetic ruminations in Baudelaire’s ‘Je n’ai pas oublié' and 'La Servante au 	grand cœur’.” Green Letters, vol. 19, no. 2, 170–184, DOI: 10.1080/14688417.2014.993676.</p>
+                    <p>Leakey, F. W. Baudelaire and Nature, Manchester University Press, 1969.</p>
+                    <p>Quandt, Karen F. “Baudelaire and the Poetics of Pollution.” Dix-Neuf, vol. 19, no. 3, 2015, 244–259, 		DOI: 10.1179/1478731815Z.00000000080.</p>
+                    <p>St Clair, Robert. “Nature, the City, and Other Lyrical Material: Baudelaire with Rimbaud.” L’Esprit 		créateur, vol. 58, no. 1, 2018, 59–73, <a href="https://muse.jhu.edu/article/688596"> DOI: 10.1353/esp.2018.0005</a></p>
+                    <p>Whitlark, James. “The Deep Ecology of ‘Evil’: Baudelaire and Holism,” <i>Ecocritical Approaches to 		Literature in French</i>, edited by Douglas L. Boudreau and Marnie M. Sullivan, Lexington Books, 	2016, pp. 65–80.</p>
+                
             </div>                    
         </div>
     </div>
     <footer class=footer>
         <br><br>
-        <div class=brandIcons>
+        <!-- <div class=brandIcons>
             <div id=iconsLeft></div>
             <div id=twitterIcon><a href="#" target="blank" style="color:white"><i class="fa fa-twitter" style="font-size:24px;color:white"></i></a></div>
-            <div id=facebookIcon><a href="#" target="blank" style="color:white"><i class="fa fa-facebook-square" style="font-size:24px;color:white"></i></a></div>
+            <div id=facebookIcon><a href="#" target="blank" style="color:white"><i class="fa fa-facebook-square" style="font-size:24px;color:white"></i></a></div> -->
             <!--<div id=redditIcon><a href="about:blank" target="blank" style="color:white"><i class="fa fa-reddit" style="font-size:24px;color:white"></i></a></div>-->
-            <div id=instaIcon><a href="#" target="blank" style="color:white"><i class="fa fa-instagram" style="font-size:24px;color:white"></i></a></div>
+            <!-- <div id=instaIcon><a href="#" target="blank" style="color:white"><i class="fa fa-instagram" style="font-size:24px;color:white"></i></a></div>
             <div id=linkedInIcon><a href="#" target="blank" style="color:white"><i class="fa fa-linkedin-square" style="font-size:24px;color:white"></i></a></div>
             <div id=githubIcon><a href="#" target="blank" style="color:white"><i class="fa fa-github" style="font-size:24px;color:white"></i></a></div>
             <div id=iconsRight></div>
-        </div>
+        </div> -->
         <br><br>
         
     </footer>

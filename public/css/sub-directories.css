@@ -15,9 +15,10 @@
 #sub-link:hover{
     color: var(--medgreen);
 }
-#sub-aut-contentWrap{
+#sub-contentWrap{
     margin-left:2vw;
     margin-top: 50px;
+    margin-bottom:50px;
     flex:5;
 }
 #sub-aut-img{

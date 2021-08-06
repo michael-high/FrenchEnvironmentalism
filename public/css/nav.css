@@ -16,7 +16,8 @@
     /* align-items: left; */
     /* padding: 1rem 1.5rem; */
     background: var(--mutegreen);
-    margin-top:30px;
+    margin-top:70px;
+    margin-bottom:80px;
     margin-left:30px;
     padding: 0px 30px 0px 0px;
     /* width:145px; */
@@ -31,6 +32,7 @@
 }
 .nav-menu li{
     list-style: none;
+    
 }
 #navbar a{
     text-decoration: none;
@@ -38,15 +40,50 @@
 .vnav-item{
     margin-top:25px;
 } 
-
-
 .vnav-link{
     font-size: large;
     font-weight: 400;
     color: #d3d3d3;
 }
-
+.vnav-link-active{
+    font-size: larger;
+    font-weight: 500;
+    color: #ffffff;
+}
+.vnav-link-active:hover{
+    font-size: large;
+    font-weight: 400;
+    color: #d3d3d3;
+    font-style: bold;
+}
 .vnav-link:hover{
+    color: #ffffff;
+}
+
+
+.vnav-mini-menu {
+    list-style: none;
+}
+.vnav-mini-item{
+    margin-top:5px;
+} 
+.vnav-mini-link{
+    font-size: smaller;
+    font-weight: 300;
+    color: #d3d3d3;
+}
+.vnav-mini-link-active{
+    font-size: small;
+    font-weight: 400;
+    color: #ffffff;
+}
+.vnav-mini-link-active:hover{
+    font-size: smaller;
+    font-weight: 300;
+    color: #d3d3d3;
+    font-style: bold;
+}
+.vnav-mini-link:hover{
     color: #ffffff;
 }
 /* 
